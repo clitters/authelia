@@ -17,7 +17,10 @@ require (
 	github.com/golang/mock v1.3.1
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
+<<<<<<< HEAD
 	github.com/kr/pty v1.1.8 // indirect
+=======
+>>>>>>> 40c4c6c... Improve documentation.
 	github.com/lib/pq v1.2.0
 	github.com/mattn/go-sqlite3 v1.11.0
 	github.com/ogier/pflag v0.0.1 // indirect
