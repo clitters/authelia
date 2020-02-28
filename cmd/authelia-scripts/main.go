@@ -50,6 +50,11 @@ var Commands = []AutheliaCommandDefinition{
 		SubCommands: CobraCommands{DockerBuildCmd, DockerPushCmd, DockerManifestCmd},
 	},
 	AutheliaCommandDefinition{
+		Name:        "documentation",
+		Short:       "Commands related to documentation",
+		SubCommands: CobraCommands{DocumentationDeployCmd},
+	},
+	AutheliaCommandDefinition{
 		Name:  "serve [config]",
 		Short: "Serve compiled version of Authelia",
 		Func:  ServeCmd,
